@@ -18,7 +18,7 @@ export default TodoCard;
 
 const styles= StyleSheet.create({
     container: {
-        backgroundColor: 'red',
+        backgroundColor: '#8e0000',
         padding: 10,
         margin: 5,
         borderRadius:8,
@@ -26,7 +26,7 @@ const styles= StyleSheet.create({
         alignSelf: 'center'
     },
     containerDone: {
-        backgroundColor: 'white',
+        backgroundColor: '#e0e0e0',
         padding: 10,
         margin: 5,
         borderRadius:8,
@@ -38,8 +38,10 @@ const styles= StyleSheet.create({
         textAlign: 'center'
     },
     cardDoneText: {
-        color: 'red',
+        color: 'black',
+        fontSize: 16,
         textAlign: 'center',
+        fontWeight: 'bold',
         textDecorationLine: 'line-through'
     }
 })

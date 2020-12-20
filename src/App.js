@@ -68,7 +68,7 @@ function App() {
  
   return (
     // ...
-    <SafeAreaView style={{flex:1, backgroundColor: '#bdbdbd'}}>
+    <SafeAreaView style={{flex:1, backgroundColor: '#fafafa'}}>
       <View style={{flex:1}}>
         <Header condition= {condition} counter = {counter} />
         {/* <Text>{text}</Text> */}

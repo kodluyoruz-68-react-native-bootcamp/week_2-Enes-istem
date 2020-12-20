@@ -7,7 +7,7 @@ const Header = ({condition, counter}) => {
     return(
         <View style = {styles.container}>
             <Text style = {styles.todoStyle}>TODO</Text>
-            <Text style = {styles.counterStyle}>COUNTER: {counter}</Text>
+            <Text style = {styles.counterStyle}>{counter}</Text>
         </View>
     )
 }
@@ -21,12 +21,12 @@ const styles = StyleSheet.create({
         margin: 10
     },
     todoStyle: {
-        fontSize:25,
+        fontSize:35,
         fontWeight: 'bold',
-        color: 'red'
+        color: '#8e0000'
     },
     counterStyle: {
-        fontSize: 20,
+        fontSize: 35,
         fontWeight: 'bold',
         color: 'black'
     }

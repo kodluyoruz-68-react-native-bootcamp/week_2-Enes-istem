@@ -23,7 +23,7 @@ export default Combine;
 
 const styles = StyleSheet.create({
     container : {
-        backgroundColor: 'grey',
+        backgroundColor: '#aeaeae',
         margin: 5,
         borderRadius: 8,
         padding:15
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         marginBottom: 10
     },
     buttonStyle: {
-        backgroundColor: 'black',
+        backgroundColor: '#8e0000',
         width: Dimensions.get('screen').width*0.9,
         padding: 10,
         borderRadius: 8
